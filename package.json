@@ -6,7 +6,7 @@
   "author": "jbrock1981 <jbrock1981@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon"
   },
   "dependencies": {
     "eslint": "^5.10.0",

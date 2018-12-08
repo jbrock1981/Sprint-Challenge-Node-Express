@@ -1,5 +1,5 @@
 //projects setup
-const projectModel = require('./helpers/projectModel');
+const projectModel = require('./data/helpers/projectModel');
 const projectRouter = require('express').Router();
 
 //project endpoints

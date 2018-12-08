@@ -1,7 +1,7 @@
 //server setup
 const express = require('express');
-const action = require('./actions');
-const projects = require('./projects');
+const actions = require('./actions');
+const projectRouter = require('./projects');
 const server = express();
 const PORT = 4200;
 
@@ -11,7 +11,8 @@ server.use(express.json());
 
 //custom middleware
 
-server.use('/actions', action);
+server.use('/actions', actions);
+server.use('/projects', projectRouter);
 
 //listen
 server.listen(PORT, () => {

@@ -1,6 +1,6 @@
 //actions setup
 const actions = require('express').Router();
-const actionModel = require('./helpers/actionModel');
+const actionModel = require('./data/helpers/actionModel');
 
 //action endpoints
 actions.get('/', (req, res) => {
