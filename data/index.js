@@ -1,6 +1,7 @@
 //server setup
 const express = require('express');
 const action = require('./actions');
+const projects = require('./projects');
 const server = express();
 const PORT = 4200;
 
